@@ -1,6 +1,6 @@
 import React  from 'react';
 import classes from './FinishedQuiz.scss';
-import Button from '../ui/Button';
+import Button from '../ui/button/Button';
 
 const FinishedQuiz = props => {
   const successNumber = Object.keys(props.results).reduce((total, key) => {
